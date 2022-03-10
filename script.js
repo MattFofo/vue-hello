@@ -3,6 +3,9 @@ const app = new Vue({
     data: {
         message: 'Hello World, Vue is great!',
         image: 'https://picsum.photos/500/500',
-        altImage: 'prima immagine con Vue'
+        altImage: 'prima immagine con Vue',
+        classList: {
+            classContainer: 'container'
+        }
     }
 });
